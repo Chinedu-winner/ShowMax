@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.photo{
+    display: flex;
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+nav h3{
+    text-decoration: none;
+}
+nav a{
+    color: red;
+    text-decoration: none;
+}
+.redeem{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 17, 36);
+    margin-top: 20px;
+}
+.parol{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.section1{
+    background-color: rgb(3,17,36);
+    margin-top: 50px;
+    font-size: 10px;
+}
+.ShowMax{
+    display: flex;
+}
+.Home{
+    color: rgb(14, 15, 15);
+    background-color: red;
+    height: 30px;
+    border-radius: 20px;
+    padding: 2px; 
+
+}
+.pencil{
+    padding: 2px;
+    margin-left: 100px;
+    border-radius: 9px;
+    background-color: rgb(235,0,79);
+    margin-top: 20px;
+}
+.signUp{
+    margin-top: 50px;
+    background-color: black; 
+    display: flex;
+    gap: 20px;
+}
+.Glory{
+    margin-left: 1000px;
+}
+
+.voucher{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    outline: black 2px solid;
+    gap: 205px;
+    align-items: center;
+}
+.bought{
+    outline: 2px black solid;
+    background-color: rgb(119, 110, 110);
+    border-radius: 30px;
+    width: 500px;
+    height: 200px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.bought button{
+    margin-left: 20px;
+}
+
+.dstv{
+    outline: black 2px solid;
+    background-color: rgb(119, 110, 110);
+    border-radius: 30px;
+    height: 200px;
+    text-align: center;
+}
+
+.dstv button{
+    border-radius: 5px;
+    margin-left: 90px;
+}
+.Exclusive{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Exclusive h2{
+    font-weight: 50px;
+}
+.bill{
+    padding: 10px;
+    border-radius: 40px;
+}
+.voucher{
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.lecture{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.entertaintment{
+    margin-bottom: 20px;
+}
+.entertaintment h2{
+    margin-left: 200px;
+    color: white;
+}
+.entertaintment img{
+    display: flex;
+}
+.ball{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    color: white;
+    background-color:rgb(3,17,36);
+    gap: 40px;
+    font-size: 20px;
+}
+.pocket{
+    background-color: rgb(235,0,79);
+    margin-top: 20px;
+}
+.pocket h2{
+    margin-left: 700px;
+    font-size: 40px;
+    /* transform: translateY(150px); */
+}
+.pocket p{
+    margin-left: 700px;
+    /* transform: translateY(150px); */
+}
+.pocket h1{
+    margin-left: 700px;
+    font-size: 30px;
+}
+.pocket button{
+    border-radius: 20px;
+    margin-left: 700px; 
+}
+
+.device{
+    background-color: rgb(3,17,36);
+    border-radius: 30px;
+    height: 200px;
+    text-align: center;
+}
+.data{
+    background-color:rgb(3,17,36);
+    border-radius: 30px;
+    height: 200px;
+    text-align: center;
+}
+.payment{    
+    background-color:rgb(3,17,36);
+    border-radius: 30px;
+    height: 200px;
+    text-align: center;
+}
+.tree{
+    background-color: rgb(3,17,36);
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 70px;
+    display: grid;
+}
+.tree h2{
+    color: white;    
+}
+.ball{
+    background-color: rgb(3, 17, 36);
+    margin-top: 50px;
+}
+.league{
+    background-color: rgb(3,17,36);
+    border-radius: 30px;
+    height: 200px;
+    text-align: center;
+}
+.globel{
+    background-color: rgb(3,17,36);
+    border-radius: 30px;
+    height: 200px;
+    text-align: center;
+}
+.Andriod{
+    display: grid;
+    color: white;
+    /* background-color: rgb(3,17,36); */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.people{
+    background-color: rgb(3,17,36);
+    border-radius: 30px;
+    height: 100px;
+    width: 200px;
+}
+.facebook{
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.whatsapp{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.whatsapp{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px; 
+}
+.kayode{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.iphone{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.lorry{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.radio{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.signal{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.antenna{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.moderm{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.google{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.winners{
+    outline: black 2px solid;
+    background-color: rgb(3,17,36);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.microsoft{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.microsoft h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 600px;
+}
+.tree{
+    background-color: black;
+    color: white;
+    /* margin-left: 500px; */
+}
+.love{
+    margin-left: 600px;
+}
+.LIST{
+    border-radius: 30px;
+    margin-left: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
